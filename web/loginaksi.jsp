@@ -23,7 +23,7 @@
         //out.println("<a href='logout.jsp'>Log out</a>");
         response.sendRedirect("index/indexlog.jsp");
     } else {
-        out.println("<br/><p>Invalid password <a href='index.jsp'>try again</a></p>");
+        response.sendRedirect("login.jsp");
         %><script type="text/javascript">alert("Login Gagal");</script>
  <%   }
 %>
