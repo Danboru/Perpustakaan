@@ -52,7 +52,7 @@
                 padding: 30px 38px 66px;
                 margin: 0 auto;
                 background-color: #eee;
-                border: 3px dotted rgba(0,0,0,0.1);  
+                
             }
 
             .form-signin-heading {
@@ -113,7 +113,6 @@
             </div>
         </header>
         <!-- End header  -->
-
         <div class = "container">
             <div class="wrapper">
                 <form action="loginaksi.jsp" method="post" name="Login_Form" class="form-signin">       
