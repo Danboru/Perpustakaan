@@ -69,7 +69,7 @@
       <div class="col-md-3 sidenav">
         <h4>perpustakaan</h4>
         <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="${pageContext.request.contextPath}/index/indexlog.jsp">Home</a></li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Anggota
             <span class="caret"></span></a>
@@ -84,11 +84,10 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Buku
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Cari Buku</a></li>
             <li><a href="${pageContext.request.contextPath}/pengarang/pengarang.jsp">Pengarang</a></li>
-            <li><a href="bahasa_buku.jsp">Bahasa Buku</a></li>
-            <li><a href="#">Penerbit</a></li>
-            <li><a href="#">Jenis Buku</a></li>
+            <li><a href="${pageContext.request.contextPath}/crud_bahasa_buku/bahasa_buku.jsp">Bahasa Buku</a></li>
+            <li><a href="${pageContext.request.contextPath}/penerbit/penerbit.jsp">Penerbit</a></li>
+            <li><a href="${pageContext.request.contextPath}/jenis_buku/jenis_buku.jsp">Jenis Buku</a></li>
           </ul>
         </li>
           <li><a href="#">Petugas</a></li>
@@ -102,7 +101,7 @@
         %>
         <br>
             Welcome <%=session.getAttribute("userid")%>
-            <li><a href="logout.jsp"><span class="glyphicon glyphicon-log-out"> Logout</span></a></li>
+            <li><a href="../logout/logout.jsp"><span class="glyphicon glyphicon-log-out"> Logout</span></a></li>
       </ul><br>
         <%
         }

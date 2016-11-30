@@ -103,9 +103,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li class="active"><a href="index.html">Home</a></li>       
+            <li class="active"><a href="index.jsp">Home</a></li>       
             
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="${pageContext.request.contextPath}/utama/gallery.jsp">Gallery</a></li>
             
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Buku <span class="fa fa-angle-down"></span></a>
@@ -114,7 +114,7 @@
               </ul>
             </li> 
             
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="${pageContext.request.contextPath}/utama/contact.jsp">Contact</a></li>
             <li><a href="login.jsp">Masuk</a></li>               
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
           </ul>                     
@@ -208,7 +208,7 @@
             <div class="mu-service-single">
               <span class="fa fa-users"></span>
               <h3>Pelayanan Ramah</h3>
-              <p>Pelayanan dari karyawan yang ramah, menjadikan alasan berlama berada di perpustakaan, haha :D</p>
+              <p>Pelayanan dari karyawan yang ramah, menjadi alasan betah berlama-lama berada di perpustakaan, haha :D</p>
             </div>
             <!-- Start single service -->
             <!-- Start single service -->
@@ -321,8 +321,6 @@
     </div>
   </section>
   <!-- End about us counter -->
-  
-  
 
   <!-- Start testimonial -->
   <section id="mu-testimonial">
