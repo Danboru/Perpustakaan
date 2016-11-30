@@ -10,10 +10,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Halaman Login</title>
+        <title>Perpusda | Login</title>
 
         <!-- Favicon -->
-        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+       <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
 
         <!-- Font awesome -->
         <link href="assets/css/font-awesome.css" rel="stylesheet">
